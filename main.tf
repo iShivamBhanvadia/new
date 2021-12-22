@@ -20,6 +20,13 @@ variable "secret_access_key" {
 	description = "i3yC9fEbISDT/VBxvYDSMRzyN43uGKKoFYdvsqao"
 }
 
+variable "access_key" {
+	description = "AKIAWPYQ2ZYBN64EXDVC"
+}
+variable "secret_access_key" {
+	description = "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"
+}
+
 resource "aws_instance" "app_server" {
   ami           = "ami-0ed9277fb7eb570c9"
   instance_type = "t2.micro"
